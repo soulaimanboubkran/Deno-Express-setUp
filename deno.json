@@ -1,4 +1,8 @@
 {
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
   "tasks": {
     "dev": "deno run --allow-read --allow-env --allow-net --allow-sys --watch ./src/main.ts",
    "generate": "deno run --allow-read --allow-env --allow-sys --allow-run npm:drizzle-kit generate",
