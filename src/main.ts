@@ -55,4 +55,4 @@ app.get("/", (_req, res) => {
 const port = Number(Deno.env.get("APP_PORT")) || 3000;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
-});
+}); 
