@@ -8,6 +8,7 @@ import {
 } from "./deps.ts";
 import { AppDataSource } from "./database.ts";
 import { User, UserRole } from "./entity/Auth/User.ts";
+import authRoutes from './Routes/authRoutes.ts';
 
 
 // Load environment variables
@@ -30,6 +31,11 @@ app.use(cors());
 app.use(helmet());
 app.use(express.json());
 app.use(morgan("dev"));
+
+
+
+
+app.use(authRoutes);
 
 // Rate limiting
 const limiter = rateLimit({

@@ -1,0 +1,41 @@
+{
+  "cores": [
+    { "id": "CORE-001", "name": "Adventure" ,"isPredefined":true},
+    { "id": "CORE-002", "name": "Fantasy","isPredefined":true },
+    { "id": "CORE-003", "name": "Romance","isPredefined":true },
+    { "id": "CORE-004", "name": "Mystery","isPredefined":true },
+    { "id": "CORE-005", "name": "Sci-Fi" ,"isPredefined":true},
+    { "id": "CORE-006", "name": "Slice of Life" ,"isPredefined":true},
+    { "id": "CORE-007", "name": "Action" ,"isPredefined":true}
+  ],
+  "categories": [
+    { "id": "CAT-001", "name": "Exploration", "cores": ["CORE-001"] },
+    { "id": "CAT-002", "name": "Heroic Quest", "cores": ["CORE-001"] },
+    { "id": "CAT-003", "name": "Epic Battles", "cores": ["CORE-001"] },
+    { "id": "CAT-004", "name": "Treasure Hunt", "cores": ["CORE-001"] },
+    { "id": "CAT-005", "name": "Magic", "cores": ["CORE-002"] },
+    { "id": "CAT-006", "name": "Mythical Creatures", "cores": ["CORE-002"] },
+    { "id": "CAT-007", "name": "Medieval Worlds", "cores": ["CORE-002"] },
+    { "id": "CAT-008", "name": "Enchantments", "cores": ["CORE-002"] },
+    { "id": "CAT-009", "name": "High School Romance", "cores": ["CORE-003"] },
+    { "id": "CAT-010", "name": "Love Triangles", "cores": ["CORE-003"] },
+    { "id": "CAT-011", "name": "Heartwarming Moments", "cores": ["CORE-003"] },
+    { "id": "CAT-012", "name": "Forbidden Love", "cores": ["CORE-003"] },
+    { "id": "CAT-013", "name": "Detective Stories", "cores": ["CORE-004"] },
+    { "id": "CAT-014", "name": "Supernatural Mysteries", "cores": ["CORE-004"] },
+    { "id": "CAT-015", "name": "Crime Solving", "cores": ["CORE-004"] },
+    { "id": "CAT-016", "name": "Hidden Secrets", "cores": ["CORE-004"] },
+    { "id": "CAT-017", "name": "Futuristic Technology", "cores": ["CORE-005"] },
+    { "id": "CAT-018", "name": "Space Exploration", "cores": ["CORE-005"] },
+    { "id": "CAT-019", "name": "Time Travel", "cores": ["CORE-005"] },
+    { "id": "CAT-020", "name": "Alien Encounters", "cores": ["CORE-005"] },
+    { "id": "CAT-021", "name": "Everyday Life", "cores": ["CORE-006"] },
+    { "id": "CAT-022", "name": "School Life", "cores": ["CORE-006"] },
+    { "id": "CAT-023", "name": "Friendship", "cores": ["CORE-006"] },
+    { "id": "CAT-024", "name": "Personal Growth", "cores": ["CORE-006"] },
+    { "id": "CAT-025", "name": "Epic Fights", "cores": ["CORE-007"] },
+    { "id": "CAT-026", "name": "Heroic Deeds", "cores": ["CORE-007"] },
+    { "id": "CAT-027", "name": "Combat Skills", "cores": ["CORE-007"] },
+    { "id": "CAT-028", "name": "High-Stakes Challenges", "cores": ["CORE-007"] }
+  ]
+}
